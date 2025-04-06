@@ -71,7 +71,7 @@ const MessageInfo = async (req, res) => {
       .toLowerCase()
       .normalize("NFD")
       .replace(/[\u0300-\u036f]/g, "");
-    await clientModel.verifyStoreClient(phoneNumber, wsName, messageText);
+    // await clientModel.verifyStoreClient(phoneNumber, wsName, messageText);
       // await Dialogflow.dialogflowProcess(messageText, phoneNumber, messageId);
     // return res.status(200).send();
 

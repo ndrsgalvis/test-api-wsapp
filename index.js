@@ -1,6 +1,6 @@
 const express = require("express");
 const morgan = require("morgan");
-const dotenv = require("dotenv").config();
+// const dotenv = require("dotenv").config();
 const http = require("http");
 const cors = require("cors");
 const ApiRouter = require("./routes/index");
